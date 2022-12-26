@@ -14,6 +14,10 @@
 		042C3A8F2951BE1C004E23C8 /* MobileLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C3A8E2951BE1C004E23C8 /* MobileLearningTests.swift */; };
 		042C3A992951BE1C004E23C8 /* MobileLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C3A982951BE1C004E23C8 /* MobileLearningUITests.swift */; };
 		042C3A9B2951BE1C004E23C8 /* MobileLearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C3A9A2951BE1C004E23C8 /* MobileLearningUITestsLaunchTests.swift */; };
+		04C6A47929596F740057BDC3 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A47829596F740057BDC3 /* ListViewModel.swift */; };
+		04C6A47B2959A2650057BDC3 /* NetworkCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A47A2959A2650057BDC3 /* NetworkCommunication.swift */; };
+		04C6A47F2959A5E20057BDC3 /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A47E2959A5E20057BDC3 /* PeopleList.swift */; };
+		04C6A4812959A6000057BDC3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6A4802959A6000057BDC3 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		042C3A942951BE1C004E23C8 /* MobileLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042C3A982951BE1C004E23C8 /* MobileLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLearningUITests.swift; sourceTree = "<group>"; };
 		042C3A9A2951BE1C004E23C8 /* MobileLearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04C6A47829596F740057BDC3 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		04C6A47A2959A2650057BDC3 /* NetworkCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCommunication.swift; sourceTree = "<group>"; };
+		04C6A47E2959A5E20057BDC3 /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
+		04C6A4802959A6000057BDC3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				042C3A7D2951BE1B004E23C8 /* MobileLearningApp.swift */,
 				042C3A7F2951BE1B004E23C8 /* ContentView.swift */,
+				04C6A47829596F740057BDC3 /* ListViewModel.swift */,
+				04C6A4802959A6000057BDC3 /* NetworkService.swift */,
+				04C6A47A2959A2650057BDC3 /* NetworkCommunication.swift */,
+				04C6A47E2959A5E20057BDC3 /* PeopleList.swift */,
 				042C3A812951BE1C004E23C8 /* Assets.xcassets */,
 				042C3A832951BE1C004E23C8 /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				042C3A802951BE1B004E23C8 /* ContentView.swift in Sources */,
+				04C6A47B2959A2650057BDC3 /* NetworkCommunication.swift in Sources */,
 				042C3A7E2951BE1B004E23C8 /* MobileLearningApp.swift in Sources */,
+				04C6A47929596F740057BDC3 /* ListViewModel.swift in Sources */,
+				04C6A4812959A6000057BDC3 /* NetworkService.swift in Sources */,
+				04C6A47F2959A5E20057BDC3 /* PeopleList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
